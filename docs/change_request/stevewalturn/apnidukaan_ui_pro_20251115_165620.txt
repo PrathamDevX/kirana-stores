@@ -1,0 +1,123 @@
+IMPORTANT: Before implementing the main functionality, update these critical files:
+
+1. Home View (lib/features/home_view.dart):
+- Remove ALL template demonstration components
+- Create a clean slate for the implementation based on the main request
+
+2. Startup View (lib/features/startup/startup_view.dart & startup_viewmodel.dart):
+- Remove template splash screen
+- Ensure proper navigation to the main screen
+
+Main Request:
+Design a complete mobile app UI for an application named **ApniDukaan**.  
+This app is for **local kirana shopkeepers** to manage their products, accept orders, and update stock easily.  
+Create clean, minimal, modern UI screens with a warm friendly theme using colors:  
+- Primary: #FF9933 (Indian orange – friendly, local vibe)  
+- Secondary: #2E7D32 (Green – trust & freshness)  
+- Background: Light neutral (#F9F9F9)  
+- Text: Dark grey/black
+
+Use rounded cards, simple icons, and a modern Indian-small-business feel.  
+Design the UI following **Material You** / modern flat UI principles.
+
+---
+
+## 📌 Screens to Generate
+
+### 1. **Splash Screen**
+- Logo of “ApniDukaan”  
+- Subtext: “Smart Tools for Your Kirana Store”
+
+### 2. **Login / Signup Page**
+- Phone number login with OTP  
+- Buttons: “Login” and “Create Shopkeeper Account”  
+- Clean form with:  
+  - Shop Name  
+  - Owner Name  
+  - Phone Number  
+  - Address  
+  - Password  
+
+### 3. **Home Dashboard (Shopkeeper)**
+- Greeting: “Hi, Ramesh Ji 👋”  
+- Quick stats cards:
+  - Today’s Orders  
+  - Low Stock Items  
+  - Total Revenue Today  
+- Buttons:
+  - “Add Products”
+  - “Manage Orders”
+  - “Update Stock”
+- Bottom Navigation:
+  - Home  
+  - Products  
+  - Orders  
+  - Profile  
+
+### 4. **Product Management Screen**
+- Product list with search + categories  
+- Each product card shows:
+  - Product image  
+  - Name  
+  - Price  
+  - Stock count  
+  - Edit button  
+- Floating button: “Add New Product”
+
+### 5. **Add Product Screen**
+Allow shopkeeper to add products in 3 ways:
+- Scan Barcode  
+- Take Product Photo  
+- Manual Entry (Name, Price, Stock, Category)  
+
+Design clear input form UI.
+
+### 6. **Orders Screen**
+- Two tabs:
+  - Pending Orders  
+  - Accepted Orders  
+- Each order card shows:
+  - Customer name  
+  - Items + quantities  
+  - Total price  
+  - Delivery type (Instant / Scheduled)  
+  - Accept / Reject buttons  
+
+### 7. **Stock Update Screen**
+- Editable list of products  
+- Quick stock + / - buttons  
+- Highlight "Low Stock" items in red  
+- Include CTA: “Save Changes”
+
+### 8. **Notifications Screen**
+- List of:
+  - New Order Alerts  
+  - Low Stock Alerts  
+  - Daily Stock Reminder  
+- Clean list UI with icons  
+
+### 9. **Profile / Settings Screen**
+- Shop Name & Owner Name card  
+- Options:
+  - Edit Shop Details  
+  - Payment Settings  
+  - Logout  
+
+---
+
+## 📌 Visual Style Guidelines
+- Use simple icons, rounded corners, and lots of white space.  
+- Make UI friendly and hyperlocal.  
+- Combine modern mobile-app look with kirana-store personality.  
+- Use illustrations or simple icons for empty states.
+
+---
+
+## 📌 Deliverables
+Generate the complete UI flow for all screens above in a consistent design system.  
+Make sure colors, typography, iconography, spacing, and layout remain consistent across the entire app.  
+
+
+Note: The final implementation should look completely different from the template app.
+
+And since this is first prompts always use in memory variable INSTEAD OF USING DATABASE or FIRESTORE.
